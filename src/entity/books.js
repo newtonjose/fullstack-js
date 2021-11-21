@@ -1,7 +1,13 @@
 import { parserCsv } from "../parser";
 
-export default authors = () => {
-    const data = parserCsv('authors')
+class Authors {
+  constructor() {
+    this.data = parserCsv("authors");
+  }
 
-    
+  getData () {
+    return this.data;  
+  }
 }
+
+export default Authors
