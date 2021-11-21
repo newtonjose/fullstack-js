@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# OBS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tive problemas com o setup do projeto disponibilizado, gastei um tempo a mais para configurar o React 18 e Material-UI como ideia de frontend.
+O projeto está com os testes unitários de parser dos dados CSV para objetos. Infelizmente não foi possível estruturar a view para receber os dados nos componetes em questão: Book, Magazine e Author.
+
+Execute o `yarn test` para executar o parser dos arquivos diponibilizados. 
+
+Att, JSJ.
 
 ## Available Scripts
 
