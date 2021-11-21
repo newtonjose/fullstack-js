@@ -5,9 +5,9 @@ class Authors {
     this.data = parserCsv("authors");
   }
 
-  getData () {
-    return this.data;  
+  getData() {
+    return this.data;
   }
 }
 
-export default Authors
+export default Authors;
